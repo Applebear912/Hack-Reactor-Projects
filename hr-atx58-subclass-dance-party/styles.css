@@ -1,0 +1,66 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0 auto;
+  width: 80%;
+  background: no-repeat url("img/background/danceWelcomeGIF.gif");
+  background-size: contain;
+  font-size: 18px;
+  border-bottom: 10px solid blanchedalmond;
+}
+body, a:link, a:visited, a:active{
+  color: black;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:left;
+  font-size: 20px;
+  color: black;
+}
+.topbar{
+  height: 50px;
+  margin: auto;
+  width: 50%;
+  border: 3px olivedrab;
+  background-color: burlywood;
+  border-bottom: 10px solid blanchedalmond;
+  border-top: 10px solid blanchedalmond;
+  border-left: 10px solid blanchedalmond;
+  border-right: 10px solid blanchedalmond;
+
+
+}
+
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+@keyframes bouncy {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+
+span .blinky {
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+img{
+  display:inline;
+  border-radius:100px;
+  size: 5px
+}
+
+
+.rainbow {
+  border:10px solid green;
+  border-radius:10px;
+  position:absolute;
+
+}

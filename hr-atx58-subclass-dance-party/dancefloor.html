@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Dance Party</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="src/dancer.js"></script>
+    <script src="src/blinkyDancer.js"></script>
+    <script src="src/bouncyDancer.js"></script>
+  </head>
+  <body>
+    <div class="topbar">
+      <span class="title">object dance party</span>
+      <select id='floor'>
+        <option value="" disabled selected>Please select your favorite dance floor</option>
+        <option value="1">Grassland</option>
+        <option value="2">White House</option>
+        <option value="3">Space</option>
+        <option value="4">Club</option>
+
+      </select>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeBlinkyDancer">add a blinky dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeBouncyDancer">add a bouncy dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeRainbowDancer">add a rainbow dancer</a>
+
+    </div>
+
+    <script src="src/init.js"></script>
+  </body>
+</html>
